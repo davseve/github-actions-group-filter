@@ -1,0 +1,48 @@
+{
+  "include": [
+    {
+      "group": "a",
+      "name": "default"
+    },
+    {
+      "group": "b",
+      "name": "TOC"
+    },
+    {
+      "group": "b",
+      "name": "loop"
+    },
+    {
+      "group": "b",
+      "name": "woocommerce"
+    },
+    {
+      "group": "b",
+      "name": "sticky"
+    },
+    {
+      "group": "b",
+      "name": "LoopCarousel"
+    },
+    {
+      "group": "b",
+      "name": "navMenu"
+    },
+    {
+      "group": "a",
+      "name": "template-tests"
+    },
+    {
+      "group": "b",
+      "name": "nestedCarousel"
+    },
+    {
+      "group": "b",
+      "name": "taxonomyFilter"
+    },
+    {
+      "group": "b",
+      "name": "formWidget"
+    }
+  ]
+}

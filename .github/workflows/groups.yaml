@@ -1,0 +1,24 @@
+name: Filter Groups
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  filter-groups:
+    runs-on: ubuntu-latest
+    outputs:
+      filtered-data: ${{ steps.filter.outputs.filtered-data }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Filter Groups
+        id: filter
+        uses: ./filter_groups.sh
+        with:
+          group: a
+
+      - name: Print Filtered Data
+        run: echo "$FILTERED_DATA"
